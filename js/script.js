@@ -309,11 +309,29 @@ document.write("this product  number" + product);
 
 //class 31 do while loop
 
-var i = 1;
-do{
-  console.log(i);
-  i++;
-}while(i <= 10);
+// var i = 1;
+// do{
+//   console.log(i);
+//   i++;
+// }while(i <= 10);
+
+//class 32 break and continue;
+//break
+// for ( var i = 1; i <=100; i++){
+//   if(i == 77){
+//     break;
+//   }
+//   document.write( "this is value of i =" +i);
+// }
+
+//continue
+for ( var i = 1; i <=100; i++){
+  if(i == 77){
+    continue;
+  }
+  document.write( " i =" +i);
+}
+
 
   
 
