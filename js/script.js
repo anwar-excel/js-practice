@@ -262,6 +262,18 @@ if (age >= countNumber) {
 
    //class 29 for loop
 
+  //  for (var i = 2; i <= 100 ; i++){
+  //   if(i % 2 == 0){
+  //      document.write(i + " ");
+  //   }
+  //  }
+
+  // for (var i = 20000; i >= 1; i--) {
+  //   if (i % 120 == 0) {
+  //     document.write(i + " ");
+  //   }
+  // }
+
   
 
   
