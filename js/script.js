@@ -325,11 +325,29 @@ document.write("this product  number" + product);
 // }
 
 //continue
-for ( var i = 1; i <=100; i++){
-  if(i == 77){
-    continue;
+// for ( var i = 1; i <=100; i++){
+//   if(i == 77){
+//     continue;
+//   }
+//   document.write( i+"."+" i =" +i + "<br>");
+// }
+
+//class 33 array traversing ;
+
+let name = "Hello World";
+let foodName = ["Cake","Chocolate","Ice Cream"];
+for (var i = 0; i < name.length;i++){
+  if(name[i] == " "){
+    document.write(`index[i]` + "no word" + "<br>");
+
+    
+  }else{
+    document.write(`index[i]` + " " + name[i] + "<br>");
   }
-  document.write( " i =" +i);
+  
+}
+for (var i = 0; i < foodName.length; i++) {
+  document.write(`index[i]` + " " + foodName[i] + "<br>");
 }
 
 
