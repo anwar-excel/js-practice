@@ -277,7 +277,7 @@ if (age >= countNumber) {
 
      //class 30 while loop
      
-
+/*
 var i = 0;
 while(i <= 10){
   document.write("Anwar");
@@ -291,7 +291,7 @@ while(i <=10) {
   document.write(i+" ");
   i++;
   
-}
+} */
 /*
 
 var i = 1;
@@ -307,7 +307,13 @@ document.write("this sum " + sum);
 document.write("this product  number" + product);
 */
 
-  
+//class 31 do while loop
+
+var i = 1;
+do{
+  console.log(i);
+  i++;
+}while(i <= 10);
 
   
 
