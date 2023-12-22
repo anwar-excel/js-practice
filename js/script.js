@@ -334,20 +334,47 @@ document.write("this product  number" + product);
 
 //class 33 array traversing ;
 
-let name = "Hello World";
-let foodName = ["Cake","Chocolate","Ice Cream"];
-for (var i = 0; i < name.length;i++){
-  if(name[i] == " "){
-    document.write(`index[i]` + "no word" + "<br>");
+// let name = "Hello World";
+// let foodName = ["Cake","Chocolate","Ice Cream"];
+// for (var i = 0; i < name.length;i++){
+//   if(name[i] == " "){
+//     document.write(`index[i]` + "no word" + "<br>");
 
     
-  }else{
-    document.write(`index[i]` + " " + name[i] + "<br>");
-  }
+//   }else{
+//     document.write(`index[i]` + " " + name[i] + "<br>");
+//   }
   
+// }
+// for (var i = 0; i < foodName.length; i++) {
+//   document.write(`index[i]` + " " + foodName[i] + "<br>");
+// }
+
+//class 34 for of and for in ;
+
+// for in = string/array/object;
+//for of = string/array;
+
+let name = "I am learning Javascript";
+for (var x in name){
+  document.write(`index number ${x} and value ${name[x]}`+"<br>");
 }
-for (var i = 0; i < foodName.length; i++) {
-  document.write(`index[i]` + " " + foodName[i] + "<br>");
+for (var i of name){
+  document.write(`value ${i}`+"<br>")
+}
+let foodName = ["Cake", "Chocolate", "Ice Cream"];
+for (var y in foodName) {
+  document.write(`index number ${y} and value ${foodName[y]}` + "<br>");
+}
+let person = {
+  name : "atif  islam",
+  proffesion: "Singer",
+  country: "Pakistan",
+  age: 40
+
+}
+for (var a in person) {
+  document.write(`index Property ${a} and value ${person[a]}` + "<br>");
 }
 
 
