@@ -261,18 +261,51 @@ if (age >= countNumber) {
   //class 28 loop
 
    //class 29 for loop
+/*
+   for (var i = 2; i <= 100 ; i++){
+    if(i % 2 == 0){
+       document.write(i + " ");
+    }
+   }
 
-  //  for (var i = 2; i <= 100 ; i++){
-  //   if(i % 2 == 0){
-  //      document.write(i + " ");
-  //   }
-  //  }
+  for (var i = 20000; i >= 1; i--) {
+    if (i % 120 == 0) {
+      document.write(i + " ");
+    }
+  }
+  */
 
-  // for (var i = 20000; i >= 1; i--) {
-  //   if (i % 120 == 0) {
-  //     document.write(i + " ");
-  //   }
-  // }
+     //class 30 while loop
+     
+
+var i = 0;
+while(i <= 10){
+  document.write("Anwar");
+  i++;
+}
+
+// while loop
+
+var i = 0;
+while(i <=10) {
+  document.write(i+" ");
+  i++;
+  
+}
+/*
+
+var i = 1;
+var sum = 0;
+var product = 1;
+while(i <=10) {
+  sum = sum + i;
+  product = product * i;
+  i++;
+  
+}
+document.write("this sum " + sum);
+document.write("this product  number" + product);
+*/
 
   
 
