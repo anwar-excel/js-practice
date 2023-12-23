@@ -350,11 +350,13 @@ document.write("this product  number" + product);
 //   document.write(`index[i]` + " " + foodName[i] + "<br>");
 // }
 
-//class 34 for of and for in ;
 
-// for in = string/array/object;
-//for of = string/array;
 
+/*
+class 34 for of and for in ;
+
+for in = string/array/object;
+for of = string/array;
 let name = "I am learning Javascript";
 for (var x in name){
   document.write(`index number ${x} and value ${name[x]}`+"<br>");
@@ -376,6 +378,20 @@ let person = {
 for (var a in person) {
   document.write(`index Property ${a} and value ${person[a]}` + "<br>");
 }
+
+*/
+
+// class 37 parameter agrument and Return ;
+//parameters as  like variable;
+let name = prompt("enter your name")
+let age = prompt();
+let country = prompt();
+
+function saySomething(parameter1 = "name", age, country){
+  document.write(`Hi ${parameter1} ${age} ${country}`);
+}
+saySomething(name, age,country);
+
 
 
   
