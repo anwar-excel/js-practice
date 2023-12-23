@@ -379,7 +379,7 @@ for (var a in person) {
   document.write(`index Property ${a} and value ${person[a]}` + "<br>");
 }
 
-*/
+
 
 // class 37 parameter agrument and Return ;
 //parameters as  like variable;
@@ -391,6 +391,26 @@ function saySomething(parameter1 = "name", age, country){
   document.write(`Hi ${parameter1} ${age} ${country}`);
 }
 saySomething(name, age,country);
+
+
+// class 38 function expression and Arrow function ;
+//function expression 
+let saySomething = function(name1){
+  console.log("Hello" + name1);
+}
+
+saySomething("man");
+
+//Arrow function
+let name = prompt("enter your name")
+
+let saySomething1 = (name) =>{
+  console.log(name);
+}
+saySomething1(name)
+
+*/
+
 
 
 
