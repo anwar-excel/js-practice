@@ -411,6 +411,44 @@ saySomething1(name)
 
 */
 
+// class 39 array iteration using for Each ;
+var foods = ["cake","Ice Cream", "Chocolete","Bread"];
+
+// 1st parameter element/ item;
+foods.forEach(function (value, i, c) {
+  console.log(value);
+});
+//2 nd parameter : index
+foods.forEach(function (value, i, c) {
+  console.log(i);
+});
+//3rd parameter : whole  array
+
+
+foods.forEach(function(value,i,c){
+  console.log(c);
+})
+// let result = function(item,index){
+//   console.log(`index ${index} item = ${value}`);
+// }
+// foods.forEach(result);
+
+let foodItem = foods.map(function(item,index,value){
+  return `${item} is good food`;
+})
+document.write(foodItem);
+function addSomething(item){
+  return `${item} is a food`;
+}
+let result = foods.map(addSomething);
+console.log(result);
+
+let number = [1,22,200000000,12,21];
+let sum = number.map(function(item){
+  return item * item;
+});
+console.log(sum);
+
 
 
 
