@@ -409,7 +409,7 @@ let saySomething1 = (name) =>{
 }
 saySomething1(name)
 
-*/
+
 
 // class 39 array iteration using for Each ;
 var foods = ["cake","Ice Cream", "Chocolete","Bread"];
@@ -448,6 +448,23 @@ let sum = number.map(function(item){
   return item * item;
 });
 console.log(sum);
+
+*/
+
+//class 40 object Method
+
+//===== object Method
+
+let person = {
+  name : prompt(),
+  age: prompt(),
+  fullname : function(){
+    return `${this.name} hosen`
+  }
+}
+console.log(person.name);
+console.log(person.fullname());
+
 
 
 
